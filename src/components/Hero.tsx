@@ -74,10 +74,9 @@ const Hero = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button 
-                variant="outline" 
+                variant="gold" 
                 size="xl"
                 onClick={() => scrollToSection('marketplace')}
-                className="border-white text-white hover:bg-white hover:text-agro-dark"
               >
                 Ver marketplace
               </Button>
@@ -96,7 +95,7 @@ const Hero = () => {
                 <div className="text-white">Negociação disponível</div>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
-                <div className="text-3xl font-bold text-agro-gold mb-2">Seg</div>
+                <div className="text-3xl font-bold text-agro-gold mb-2">Seguro</div>
                 <div className="text-white">Transações em segundos</div>
               </div>
             </div>

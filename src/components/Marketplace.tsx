@@ -49,21 +49,6 @@ const Marketplace = () => {
             Produtos agrícolas tokenizados com total transparência e segurança
           </p>
           
-          {/* Filters */}
-          <div className="flex flex-wrap justify-center gap-4">
-            <Badge variant="default" className="text-base py-2 px-6 cursor-pointer hover:scale-105 transition-transform">
-              Todos
-            </Badge>
-            <Badge variant="outline" className="text-base py-2 px-6 cursor-pointer hover:scale-105 transition-transform">
-              Milho
-            </Badge>
-            <Badge variant="outline" className="text-base py-2 px-6 cursor-pointer hover:scale-105 transition-transform">
-              Gado
-            </Badge>
-            <Badge variant="outline" className="text-base py-2 px-6 cursor-pointer hover:scale-105 transition-transform">
-              Madeira
-            </Badge>
-          </div>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -134,6 +119,12 @@ const Marketplace = () => {
                   variant="premium" 
                   size="lg" 
                   className="w-full"
+                  onClick={() => {
+                    const element = document.getElementById('cta');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                 >
                   Negociar agora
                 </Button>
@@ -146,9 +137,6 @@ const Marketplace = () => {
           <p className="text-gray-500 mb-4">
             Todos os produtos são lastreados em ativos físicos custodiados
           </p>
-          <Button variant="outline" size="lg">
-            Ver todos os produtos
-          </Button>
         </div>
       </div>
     </section>

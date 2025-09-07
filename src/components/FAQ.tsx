@@ -65,12 +65,6 @@ const FAQ = () => {
           <p className="text-gray-600 mb-4">
             Ainda tem dúvidas? Nossa equipe está pronta para ajudar.
           </p>
-          <a 
-            href="#" 
-            className="text-agro-dark hover:text-agro-success transition-colors font-medium"
-          >
-            Ver documentação técnica →
-          </a>
         </div>
       </div>
     </section>
