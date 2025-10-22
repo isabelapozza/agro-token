@@ -12,7 +12,7 @@ const Footer = () => {
               <div className="w-12 h-12 gradient-gold rounded-xl flex items-center justify-center">
                 <Leaf className="w-7 h-7 text-white" />
               </div>
-              <span className="text-2xl font-bold">AgroTokens</span>
+              <span className="text-2xl font-bold">PetrasTokens</span>
             </div>
             
             <p className="text-white/80 text-lg leading-relaxed mb-6 max-w-md">
@@ -85,7 +85,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 mt-1 text-white/60" />
                 <div>
-                  <div className="text-white/80">contato@agrotokens.com</div>
+                  <div className="text-white/80">contato@petrastokens.com</div>
                   <div className="text-white/60 text-sm">Suporte geral</div>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 mt-1 text-white/60" />
                 <div>
-                  <div className="text-white/80">+55 (11) 9999-9999</div>
+                  <div className="text-white/80">+55 (41) 9999-9999</div>
                   <div className="text-white/60 text-sm">Atendimento comercial</div>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 mt-1 text-white/60" />
                 <div>
-                  <div className="text-white/80">São Paulo, SP</div>
+                  <div className="text-white/80">Curitiba, PR</div>
                   <div className="text-white/60 text-sm">Brasil</div>
                 </div>
               </div>
@@ -113,19 +113,7 @@ const Footer = () => {
         <div className="border-t border-white/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-white/60 text-sm">
-              © 2024 AgroTokens. Todos os direitos reservados.
-            </div>
-            
-            <div className="flex flex-wrap gap-6 text-sm">
-              <a href="#" className="text-white/60 hover:text-white transition-smooth">
-                Política de Privacidade
-              </a>
-              <a href="#" className="text-white/60 hover:text-white transition-smooth">
-                Termos de Uso
-              </a>
-              <a href="#" className="text-white/60 hover:text-white transition-smooth">
-                Cookies
-              </a>
+              © 2025 PetrasTokens. Todos os direitos reservados.
             </div>
           </div>
         </div>

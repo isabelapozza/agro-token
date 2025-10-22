@@ -12,7 +12,7 @@ const Marketplace = () => {
       symbol: "CORN",
       image: cornImage,
       description: "Liquidez garantida • Estoque custodiado",
-      price: "R$ 45,50",
+      price: "R$ 72,00",
       unit: "por token",
       features: ["Alta liquidez", "Estoque custodiado", "Rastreabilidade total"]
     },
@@ -22,7 +22,7 @@ const Marketplace = () => {
       symbol: "CATTLE",
       image: cattleImage,
       description: "Procedência verificada • Bem-estar animal",
-      price: "R$ 1.250,00",
+      price: "R$ 315,00",
       unit: "por token",
       features: ["Procedência verificada", "Bem-estar animal", "Certificação sanitária"]
     },
@@ -32,7 +32,7 @@ const Marketplace = () => {
       symbol: "TIMBER",
       image: timberImage,
       description: "Tratamento certificado • Sustentabilidade comprovada",
-      price: "R$ 320,75",
+      price: "R$ 1.250,00",
       unit: "por token",
       features: ["Tratamento certificado", "Sustentabilidade", "Origem controlada"]
     }
@@ -95,22 +95,12 @@ const Marketplace = () => {
                 </div>
 
                 {/* Price */}
-                <div className="flex items-center justify-between mb-6">
-                  <div>
-                    <div className="text-2xl font-bold text-agro-dark">
-                      {product.price}
-                    </div>
-                    <div className="text-sm text-gray-500">
-                      {product.unit}
-                    </div>
+                <div className="mb-6">
+                  <div className="text-2xl font-bold text-agro-dark">
+                    {product.price}
                   </div>
-                  <div className="text-right">
-                    <div className="text-sm text-agro-success font-medium">
-                      ↗ +2.3%
-                    </div>
-                    <div className="text-xs text-gray-400">
-                      últimas 24h
-                    </div>
+                  <div className="text-sm text-gray-500">
+                    {product.unit}
                   </div>
                 </div>
 

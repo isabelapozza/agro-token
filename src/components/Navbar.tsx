@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="w-10 h-10 gradient-hero rounded-xl flex items-center justify-center">
               <Leaf className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-agro-dark">AgroTokens</span>
+            <span className="text-xl font-bold text-agro-dark">PetrasTokens</span>
           </div>
 
           {/* Desktop Menu */}

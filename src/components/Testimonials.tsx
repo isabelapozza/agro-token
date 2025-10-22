@@ -114,22 +114,6 @@ const Testimonials = () => {
             ))}
           </div>
         </div>
-
-        {/* Social Proof */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8 text-center">
-          <div>
-            <div className="text-3xl font-bold text-agro-dark mb-2">500+</div>
-            <div className="text-gray-600">Produtores cadastrados</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-agro-dark mb-2">R$ 50M+</div>
-            <div className="text-gray-600">Em tokens negociados</div>
-          </div>
-          <div>
-            <div className="text-3xl font-bold text-agro-dark mb-2">99.9%</div>
-            <div className="text-gray-600">Uptime da plataforma</div>
-          </div>
-        </div>
       </div>
     </section>
   );
